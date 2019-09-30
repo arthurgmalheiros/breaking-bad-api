@@ -1,4 +1,4 @@
-# breaking-bad-api
+# Breaking Bad API
 
 ## Project setup
 ```
