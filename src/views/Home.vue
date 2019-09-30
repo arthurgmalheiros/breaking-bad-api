@@ -16,7 +16,9 @@
         
         <p class="title" v-else>
             Você pesquisou por "{{searchString}}"
-        </p>        
+        </p>
+
+        <label style="padding-left: 10%" v-if="infos.length === 0 ">Nenhum personagem encontrado :(</label>
 
         <div class="row">
             <div class="section card" v-for="info in infos" :key="info.char_id">
