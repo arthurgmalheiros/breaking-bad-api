@@ -29,7 +29,7 @@ export default class Home extends Vue{
                 ) 
             })
         }, 100);
-    };
+    }
 
     removeSpecialCharacters(s: string) {
         s = s ? s.toLowerCase() : '';
